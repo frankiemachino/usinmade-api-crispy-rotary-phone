@@ -8,6 +8,8 @@ touch storage/logs/lumen.log
 
 sudo chown -R jenkins:www-data storage/ bootstrap/
 
+sudo chmod -R o+w storage/
+
 composer install
 
 name=$JOB_NAME
