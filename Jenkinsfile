@@ -44,7 +44,7 @@ sudo service apache2 reload
 
 sudo mv .env.example .env
 
-php artisan key:generate'''
+# php artisan key:generate [not needed for lumen]'''
       }
     }
   }
