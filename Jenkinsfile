@@ -4,6 +4,7 @@ pipeline {
     stage('shellington') {
       steps {
         sh '''touch storage/logs/laravel.log
+touch storage/logs/lumen.log
 
 sudo chown -R jenkins:www-data storage/ bootstrap/
 
